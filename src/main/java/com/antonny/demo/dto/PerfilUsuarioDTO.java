@@ -7,6 +7,7 @@ import org.springframework.beans.BeanUtils;
 import com.antonny.demo.entity.PerfilUsuarioEntity;
 
 public class PerfilUsuarioDTO {
+	
 	private Long id;
 	private UsuarioDTO usuario;
 	private PerfilDTO perfil;
