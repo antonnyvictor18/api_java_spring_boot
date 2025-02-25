@@ -1,11 +1,11 @@
-INSERT INTO public.av_usuario(id, email, login, nome, senha)
-	VALUES (1,'antonny@email.com','antonny' , 'Antonny','1234');
+INSERT INTO public.av_usuario(id, email, login, nome, senha, situacao)
+	VALUES (1,'antonny@email.com','antonny' , 'Antonny','1234', 'ATIVO');
 	
-INSERT INTO public.av_usuario(id, email, login, nome, senha)
-	VALUES (2,'nicolas@email.com','nicolas' , 'Nicolas','1234');
+INSERT INTO public.av_usuario(id, email, login, nome, senha, situacao)
+	VALUES (2,'nicolas@email.com','nicolas' , 'Nicolas','1234','ATIVO');
 
-INSERT INTO public.av_usuario(id, email, login, nome, senha)
-	VALUES (3,'cidinha@email.com','cidinha' , 'Cidinha','1234');
+INSERT INTO public.av_usuario(id, email, login, nome, senha, situacao)
+	VALUES (3,'cidinha@email.com','cidinha' , 'Cidinha','1234', 'ATIVO');
 
 ALTER SEQUENCE AV_USUARIO_ID_SEQ RESTART WITH 4;
 
